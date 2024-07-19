@@ -1,9 +1,12 @@
 {
-  "name": "simple-calculator",
-  "version": "1.0.0",
+  "name": "mrx-simple-calculator",
+  "version": "1.0.1",
   "description": "A simple  calculator with typeScript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "simple-calculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +17,13 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahzaibArbab/Typescript-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShahzaibArbab/Typescript-code/issues"
+  },
+  "homepage": "https://github.com/ShahzaibArbab/Typescript-code#readme"
 }
